@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+.navigation {
+    background-color: white;
+    position: relative;
+    height: 150px;
+}
+.navigation nav {
+    position: absolute;
+    display: inline;
+    margin: 40px;
+    margin-left: 50px;
+
+}
+.navigation nav a {
+    padding: 5px 10px 0px 10px;
+    text-decoration: none;
+    color: #AAB7B8;
+    transition:padding-bottom .3s ease-in-out;
+}
+.navigation nav a:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    color: #839192;
+}
+.navigation-image {
+    position: absolute;
+    right: 10px;
+}
+.navigation-image img {
+    width: 60%;
+    height: 60%;
+}
+footer{
+    padding-top: 40px;
+    clear: both;
+    background-color: #212F3D;
+    position: relative;
+    color: white;
+}
+footer div {
+    padding: 20px;
+}
+.rightside {
+    float: right;
+    width: 20%;
+    
+}
+.middleside {
+    float: right;
+    width: 30%;
+}
+
+.leftside-icon img {
+    width: 30px;
+    height: 30px;
+}
+.footBottom{
+    clear: both;
+    background-color: #A1887F ;
+    padding: 10px;
+}
+.footBottom-right {
+    float: right;
+
+}
+.services-name {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.services-name h1 {
+    margin-left: 30px;
+}
+.services-detail {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.services-detail nav a{
+    display: inline;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.services-detail nav {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.services-detail nav img{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    transition: .3s ease-in-out;
+}
+.services-detail nav img:hover{
+    transform: scale(1.2);
+}
+.about-01 {
+    background-color: black;
+    padding: 30px;
+}
+.about-01 h1{
+    color: white;
+    margin-left: 200px;
+}
+.about-01 h2 {
+    color: #A1887F;
+    margin-left: 200px;
+}
+.teamMembers {
+    text-align: center;
+    position: relative;
+    height: 350px;
+}
+.teamImages{ 
+    margin-left: 470px;
+    margin-right: 400px;
+}
+
+.teamImage{
+    
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    font-family: Candara;
+}
+.teamImage img {
+    width: 80%;
+    height: 80%;
+}

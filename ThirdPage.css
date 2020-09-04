@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+.navigation {
+    background-color: white;
+    position: relative;
+    height: 150px;
+}
+.navigation nav {
+    position: absolute;
+    display: inline;
+    margin: 40px;
+    margin-left: 50px;
+
+}
+.navigation nav a {
+    padding: 5px 10px 0px 10px;
+    text-decoration: none;
+    color: #AAB7B8;
+    transition:padding-bottom .3s ease-in-out;
+}
+.navigation nav a:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    color: #839192;
+}
+.navigation-image {
+    position: absolute;
+    right: 10px;
+}
+.navigation-image img {
+    width: 60%;
+    height: 60%;
+}
+footer{
+    padding-top: 40px;
+    clear: both;
+    background-color: #212F3D;
+    position: relative;
+    color: white;
+}
+footer div {
+    padding: 20px;
+}
+.rightside {
+    float: right;
+    width: 20%;
+    
+}
+.middleside {
+    float: right;
+    width: 30%;
+}
+
+.leftside-icon img {
+    width: 30px;
+    height: 30px;
+}
+.footBottom{
+    clear: both;
+    background-color: #A1887F ;
+    padding: 10px;
+}
+.footBottom-right {
+    float: right;
+
+}
+.header-name {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.header-name h1{
+    margin-left: 30px;
+    font-size: xx-large;
+}
+.body-name{
+    text-align: center;
+}
+.body-image {
+    height: 550px;
+    position: relative;
+}
+.body-image img {
+    width: 100%;
+    height: 100%;
+}
+.body-image form {
+    box-shadow: 2px 4px 5px black;
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    padding: 20px;
+    width: 400px;
+}
+
+.body-image form input {
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #D5DBDB;
+    font-family: Verdana;
+}
+.body-image form input:nth-last-of-type(1) {
+    background-color: #2ECC71;
+    width: 100%;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+.body-image form label {
+    padding-top: 40px;
+}
